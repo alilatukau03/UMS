@@ -1,5 +1,5 @@
 import { AppContainer } from "@components/templates";
-import "@styles/modules/globals.css";
+import "@styles/modules/globals.scss";
 
 function MyApp({ Component, pageProps }) {
   return <AppContainer {...pageProps} />;
