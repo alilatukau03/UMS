@@ -1,9 +1,9 @@
-import styles from "@styles/Moduls.module.css";
+import styles from "@styles/Moduls.module.scss";
 
 const FooterInfo = () => {
   return (
     <footer className={styles.footerInfo}>
-      <p> &copy; Copyright - {new Date().getFullYear()}</p>
+      <p> &copy; UMS RiloTech - {new Date().getFullYear()}</p>
     </footer>
   );
 };
